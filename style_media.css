@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Sriracha&display=swap');
+
+@media screen and (max-width: 800px) {
+
+    body {
+        width: 100%;
+    }
+
+   
+    .img-topo {
+        width: 80%;
+    }
+
+    header, main {
+        margin: 5%;
+        padding: 5%;
+    }
+
+    .causas, .solucoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure {
+        width: 80%;
+    }
+
+    .video {
+        width: 90%;
+    }
+}
+
+footer {
+    width: 95%;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.referencias {
+    flex-wrap: wrap;
+}
+
+.referencias a {
+    padding-top: 15px;
+}
